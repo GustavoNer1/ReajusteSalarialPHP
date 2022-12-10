@@ -1,0 +1,26 @@
+fieldset{
+    border:2px solid CCC;
+    margin-bottom: 5px;
+    margin-left:200px;
+    margin-right:200px;
+    font-size: 18px; 
+}
+fieldset[type=text]{
+    text-align: center;
+}
+.textt{
+    margin-left:39px;
+}
+input[type=submit]{
+    margin-top:5px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    background:green;
+    text-align:justify;
+}
+    
+
+
+

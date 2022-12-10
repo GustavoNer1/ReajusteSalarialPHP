@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <title>Reajuste</title>
+    </head>
+    <body>
+        <fieldset>
+            <label>
+                <h3>Reajuste Salarial</h3>
+               <p> Uma empresa decide dar um aumento aos seus funcionários de acordo com uma tabela que considera o salário atual e 
+                o tempo de serviço de cada funcionário. Os funcionários com menor salário terão um aumento proporcionalmente maior 
+                do que os funcionários com um salário maior, e conforme o tempo de serviço na empresa, cada funcionário irá receber 
+                um bônus adicional de salário. </p>
+                <label class="text">Faça um programa que leia:</label><br/><br/>
+                <label>
+                    (1) o valor do salário atual do funcionário;<br>
+                    (2) o tempo de serviço deste funcionário na empresa (nro. de anos de trabalho na empresa).<br/>
+                    Use as tabelas abaixo para calcular o salário reajustado deste funcionário e imprima o valor do salário <br/>
+                    final reajustado, ou uma mensagem caso o funcionário não tenha direito a nenhum aumento.<br/><br/>
+                    <table>
+                        <tbory>
+                            <tr>
+                                <td>R$  500  -  25%<br/>
+                                    R$ 1000  -  20%<br/>
+                                    R$ 1500  -  15%<br/>
+                                    R$ 2000  -  10%<br/>
+                                    R$ 2000+ -  0%</td>  
+                            </tr>
+                        </tbory>
+                        <div>
+                             <tr>
+                                <td>-1  =  0%<br/>
+                                     1 ate 3  = 100<br/>
+                                     4 ate 6  = 200<br/>
+                                     7 ate 10 =  300<br/>
+                                     +10  -  500</td>
+                            </tr>
+                        </div>
+                    </table>
+                </label>
+            </label>
+        </fieldset>
+
+        <fieldset type="text">
+            <form method="post" action="#">
+                <label class="textt">Salario atual: </label>
+                <input type="text"  name="V1" /><br />
+
+                <label>Tempo de servico: </label>
+                <input type="text"  name="V2" /><br />
+                <input type="submit" value="Calcular" />
+            </form>
+        </fieldset>
+    </body>
+</html>
